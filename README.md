@@ -1,9 +1,9 @@
-# HRBnVMM - A formal correspondence between elements of HRBn and B-approximable real numbers
+# A formal correspondence between elements of HRBn and B-approximable real numbers
 
-# AUTHORS
+# Authors
 Nicolas Magaud
 
-# COMPILING THE DEVELOPMENT
+# Compiling the development
 
 Works with Coq 8.10.2 (January 2020).
 
@@ -12,7 +12,7 @@ Works with Coq 8.10.2 (January 2020).
 3/ make COQFLAGS="-R ../exact-real-arithmetic-homework3 ExactRealArithmetic -R ../HR HR -R . Top"
 
 
-# SOURCES
+# Sources
 
 derived from HRBnVMM.tex
 
@@ -20,7 +20,7 @@ derived from HRBnVMM.tex
 
 proving Hrw_Vmm2 in Rw_VMM_Elie.v or showing it is a false statement
 
-# CHANGES 
+# Changes 
 
 encadrement_nat (changed n:nat into n:Z)
 remove soustractionIZR and replace it with Z_R_minus
